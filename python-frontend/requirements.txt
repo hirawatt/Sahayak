@@ -1,0 +1,32 @@
+# Core GUI Framework
+PyQt6>=6.5.0
+PyQt6-Qt6>=6.5.0
+
+# System Integration (macOS-compatible)
+# evdev>=1.6.0          # Linux-only - removed for macOS compatibility
+# pydbus>=0.6.0         # Linux-only - removed for macOS compatibility  
+# PyGObject>=3.44.0     # Linux-only - removed for macOS compatibility
+
+# Audio Processing
+sounddevice>=0.4.6    # Professional audio capture
+numpy>=1.24.0         # Audio data processing
+
+# Backend Communication
+websockets>=11.0.0    # Real-time communication
+requests>=2.31.0      # HTTP API calls
+aiohttp>=3.8.0        # Async HTTP client
+
+# UI Enhancements
+Pillow>=10.0.0        # Image processing
+qasync>=0.24.0        # Qt async integration
+
+# Utilities
+psutil>=5.9.0         # System information
+python-dotenv>=1.0.0  # Environment variables
+pynput>=1.7.6         # Fallback input handling
+pyautogui>=0.9.54     # Screen automation utilities
+
+# Development
+pytest>=7.4.0
+pytest-qt>=4.2.0
+black>=23.0.0

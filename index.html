@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahayak - Your AI Meeting Assistant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <style>
+        /* --- General Styles & Fonts --- */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+        :root {
+            --primary-color: #4a90e2; /* A friendly blue */
+            --secondary-color: #f5a623; /* An attention-grabbing orange */
+            --dark-color: #333;
+            --light-color: #f4f4f4;
+            --background-color: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: var(--background-color);
+            color: var(--dark-color);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            padding: 4rem 0;
+        }
+
+        section:nth-child(odd) { /* Swapped for better flow with new section */
+            background-color: var(--light-color);
+        }
+
+        h1, h2, h3 {
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        h1 { font-size: 3rem; }
+        h2 { font-size: 2.5rem; text-align: center; }
+        h3 { font-size: 1.5rem; }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--primary-color);
+        }
+
+        /* --- Header & Navigation --- */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            background-color: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            z-index: 100;
+        }
+
+        .navbar .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--dark-color);
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .navbar ul li {
+            margin-left: 1.5rem;
+        }
+
+        .navbar ul li a {
+            font-weight: 600;
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 80vh;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 1rem 0 2rem 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: #fff;
+            border: 1px solid var(--primary-color);
+        }
+
+        .btn-primary:hover {
+            background-color: transparent;
+            color: var(--primary-color);
+        }
+
+        /* --- Sections Content --- */
+        .section-header {
+            max-width: 700px;
+            margin: 0 auto 3rem auto;
+            text-align: center;
+        }
+
+        .features-grid, .use-cases-grid, .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .feature-card, .use-case-card, .tech-card {
+            background: var(--background-color);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .feature-card .icon {
+            font-size: 3rem; 
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        /* --- How it works --- */
+        .how-it-works-content {
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+        }
+
+        .how-it-works-content .text-content {
+            flex: 1;
+        }
+        
+        .how-it-works-content .visual-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .visual-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .steps li {
+            list-style: none;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            padding-left: 45px;
+            position: relative;
+        }
+
+        .steps li strong {
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: #fff;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+        }
+        
+        .steps li span {
+            font-weight: 600;
+            display: block;
+        }
+
+        /* --- Tech Stack --- */
+        .tech-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tech-card .tech-logo {
+            height: 50px;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        /* --- Contribute Section --- */
+        .contribute {
+            text-align: center;
+        }
+        
+        .contribute .btn-secondary {
+            background-color: var(--secondary-color);
+            color: #fff;
+            border: 1px solid var(--secondary-color);
+        }
+
+        .contribute .btn-secondary:hover {
+            background-color: transparent;
+            color: var(--secondary-color);
+        }
+        
+        /* --- Footer --- */
+        .footer {
+            background-color: var(--dark-color);
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        .footer p {
+            margin: 0;
+        }
+        
+        /* --- Responsive Design --- */
+        @media(max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 2rem; }
+            
+            .navbar {
+                flex-direction: column;
+            }
+
+            .navbar ul {
+                padding: 1rem 0;
+            }
+
+            .how-it-works-content {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="container">
+        <nav class="navbar">
+            <div class="logo">Sahayak 🤖</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How it Works</a></li>
+                <li><a href="#tech">Technology</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <h1>Your Intelligent Partner for Every Conversation</h1>
+            <p>
+                Sahayak is an open-source AI assistant that provides real-time insights and suggestions during your sales calls, interviews, and virtual meetings.
+            </p>
+            <a href="#your-github-repo-link" class="btn btn-primary">View on GitHub</a>
+        </section>
+        
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What is Sahayak?</h2>
+                    <p style="font-size: 1.1rem; max-width: 800px;">Sahayak is an intelligent, open-source virtual assistant designed to be your ultimate partner in any digital conversation. Whether you're a sales professional navigating a tough call, a candidate in a crucial job interview, or a manager leading a team meeting, Sahayak provides real-time support directly on your screen. By leveraging advanced AI, it listens to the conversation, identifies who is speaking, and offers timely insights, suggestions, and answers. Sahayak runs securely on your local machine, works with any meeting platform, and ensures you never miss a key detail, empowering you to communicate with greater confidence and clarity.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What Makes Sahayak Different?</h2>
+                    <p>Unlike other tools, Sahayak runs locally on your machine, ensuring privacy and performance.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon">🎙️</div>
+                        <h3>Real-time Speaker Diarization</h3>
+                        <p>Intelligently differentiates between speakers (e.g., you and your customer) to provide context-aware assistance.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">💻</div>
+                        <h3>Platform Independent</h3>
+                        <p>Works across any meeting platform (Zoom, Google Meet, Teams) by running as a simple desktop overlay.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🔓</div>
+                        <h3>Open Source & Free</h3>
+                        <p>Built for the community. Use it, modify it, and contribute to its growth. No subscriptions, ever.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Simple Steps to Get Started</h2>
+                </div>
+                <div class="how-it-works-content">
+                    <div class="text-content">
+                        <ul class="steps">
+                            <li><strong>1</strong> <span>Install & Run</span> Follow the simple setup instructions and launch the application in your local environment.</li>
+                            <li><strong>2</strong> <span>Floating Popup Appears</span> A small, non-intrusive popup appears on your screen, ready to assist.</li>
+                            <li><strong>3</strong> <span>Start Recording</span> In your meeting, click 'Record' on the popup to activate the AI assistant.</li>
+                            <li><strong>4</strong> <span>Get Real-time Responses</span> Sahayak starts listening, analyzing the conversation, and provides instant insights directly on your screen.</li>
+                        </ul>
+                    </div>
+                    <div class="visual-content">
+                        <img src="images/Gemini_Generated_Image_so0komso0komso0k.png" alt="Sahayak AI assistant in use during a video call">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tech">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Core Technology</h2>
+                    <p>Built with powerful and modern tools to deliver a seamless AI experience.</p>
+                </div>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <div class="tech-logo">
+                            <i class="devicon-google-plain colored" style="font-size:50px;"></i>
+                        </div>
+                        <h3>AI & ML</h3>
+                        <p>Analysis and generation powered by Google's Gemini models.</p>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-logo">
+                           <img src="https://raw.githubusercontent.com/pyannote/pyannote-audio/develop/docs/images/pyannote-logo.png" alt="Pyannote Logo" height="30">
+                        </div>
+                        <h3>Speaker Diarization</h3>
+                        <p>Using pyannote.audio for accurate, real-time speaker identification.</p>
+                    </div>
+                     <div class="tech-card">
+                        <div class="tech-logo">
+                           <svg height="40" viewBox="0 0 1024 1024" fill="#000000" xmlns="http://www.w3.org/2000/svg"><path d="M512 0C229.2 0 0 229.2 0 512s229.2 512 512 512 512-229.2 512-512S794.8 0 512 0Zm0 947.2c-240.2 0-435.2-195-435.2-435.2S271.8 76.8 512 76.8s435.2 195 435.2 435.2-195 435.2-435.2 435.2Z" /><path d="M632 678.8c-22.3 0-42.3-9.5-56.3-25.2l-64-72.8-64 72.8c-14 15.7-34 25.2-56.3 25.2-46.3 0-83.9-37.6-83.9-83.9V396.4c0-35.3 28.6-63.9 63.9-63.9h6.4c35.3 0 63.9 28.6 63.9 63.9v198.4l64-72.8c14-15.7 34-25.2 56.3-25.2s42.3 9.5 56.3 25.2l64 72.8V396.4c0-35.3 28.6-63.9 63.9-63.9h6.4c35.3 0 63.9 28.6 63.9 63.9v198.5c0 46.3-37.6 83.9-83.9 83.9Z" /></svg>
+                        </div>
+                        <h3>Speech-to-Text</h3>
+                        <p>High-accuracy transcription powered by OpenAI's Whisper.</p>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-logo">
+                            <i class="devicon-googlecloud-plain colored" style="font-size:50px;"></i>
+                        </div>
+                        <h3>Backend & Infra</h3>
+                        <p>Containerized microservices running on Cloud Run and DigitalOcean.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contribute" class="contribute">
+             <div class="container">
+                <h2>Grow Sahayak! 🌱</h2>
+                <p>This project thrives on community contributions. If you're a developer, designer, or just an enthusiast, we'd love your help.</p>
+                <a href="#your-github-contribution-link" class="btn btn-secondary">Contribution Guide</a>
+             </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sahayak Project. Open Source and Free Forever.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

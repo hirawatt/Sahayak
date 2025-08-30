@@ -1,0 +1,246 @@
+2025-08-30 12:08:35,128 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:08:35,128 - __main__ - ERROR - Failed to initialize application: 'Settings' object has no attribute 'is_setup_complete'
+2025-08-30 12:08:35,128 - __main__ - ERROR - Failed to initialize application
+2025-08-30 12:10:00,542 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:10:00,542 - __main__ - INFO - Running setup wizard...
+2025-08-30 12:10:15,682 - __main__ - INFO - Setup completed successfully
+2025-08-30 12:10:15,686 - __main__ - WARNING - Backend connection failed: BackendClient.__init__() got an unexpected keyword argument 'base_url' - running in offline mode
+2025-08-30 12:10:15,687 - services.overlay_manager - ERROR - Failed to setup shortcuts: 'Settings' object has no attribute 'shortcuts'
+2025-08-30 12:10:15,688 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:10:15,770 - __main__ - INFO - System tray setup complete
+2025-08-30 12:10:15,770 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:14:10,266 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:14:10,267 - __main__ - WARNING - Backend connection failed: BackendClient.__init__() got an unexpected keyword argument 'base_url' - running in offline mode
+2025-08-30 12:14:10,267 - services.overlay_manager - ERROR - Failed to setup shortcuts: 'Settings' object has no attribute 'shortcuts'
+2025-08-30 12:14:10,268 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:14:10,389 - __main__ - INFO - System tray setup complete
+2025-08-30 12:14:10,389 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:14:40,129 - __main__ - INFO - Application exited with code 0
+2025-08-30 12:14:45,741 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:14:45,742 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:14:45,805 - services.backend_client - ERROR - Failed to connect to backend: Backend health check failed
+2025-08-30 12:14:45,805 - services.backend_client - INFO - Disconnecting from backend service
+2025-08-30 12:14:45,805 - __main__ - WARNING - Backend connection failed: Backend health check failed - running in offline mode
+2025-08-30 12:14:45,808 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:14:45,808 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:14:45,808 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:14:45,808 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:14:45,808 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:14:45,929 - __main__ - INFO - System tray setup complete
+2025-08-30 12:14:45,929 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:14:49,632 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:14:49,632 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:14:49,640 - services.backend_client - ERROR - Failed to connect to backend: Backend health check failed
+2025-08-30 12:14:49,640 - services.backend_client - INFO - Disconnecting from backend service
+2025-08-30 12:14:49,640 - __main__ - WARNING - Backend connection failed: Backend health check failed - running in offline mode
+2025-08-30 12:14:49,641 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:14:49,641 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:14:49,641 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:14:49,641 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:14:49,641 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:14:49,683 - __main__ - INFO - System tray setup complete
+2025-08-30 12:14:49,683 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:15:02,802 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:15:02,802 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:15:02,814 - services.backend_client - ERROR - Failed to connect to backend: Backend health check failed
+2025-08-30 12:15:02,814 - services.backend_client - INFO - Disconnecting from backend service
+2025-08-30 12:15:02,814 - __main__ - WARNING - Backend connection failed: Backend health check failed - running in offline mode
+2025-08-30 12:15:02,816 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:15:02,816 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:15:02,816 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:15:02,816 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:15:02,816 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:15:02,887 - __main__ - INFO - System tray setup complete
+2025-08-30 12:15:02,887 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:15:25,871 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:15:25,872 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:15:25,882 - services.backend_client - ERROR - Failed to connect to backend: Backend health check failed
+2025-08-30 12:15:25,882 - services.backend_client - INFO - Disconnecting from backend service
+2025-08-30 12:15:25,882 - __main__ - WARNING - Backend connection failed: Backend health check failed - running in offline mode
+2025-08-30 12:15:25,885 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:15:25,885 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:15:25,885 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:15:25,885 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:15:25,885 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:15:25,944 - __main__ - INFO - System tray setup complete
+2025-08-30 12:15:25,944 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:18:35,377 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:18:35,378 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:18:35,390 - services.backend_client - ERROR - Failed to connect to backend: Backend health check failed
+2025-08-30 12:18:35,390 - services.backend_client - INFO - Disconnecting from backend service
+2025-08-30 12:18:35,391 - __main__ - WARNING - Backend connection failed: Backend health check failed - running in offline mode
+2025-08-30 12:18:35,391 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:18:35,392 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:18:35,392 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:18:35,392 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:18:35,392 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:18:35,454 - __main__ - INFO - System tray setup complete
+2025-08-30 12:18:35,691 - services.overlay_manager - INFO - AI Assist window shown
+2025-08-30 12:18:35,691 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:19:40,832 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:19:40,832 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:19:40,844 - services.backend_client - ERROR - Failed to connect to backend: Backend health check failed
+2025-08-30 12:19:40,844 - services.backend_client - INFO - Disconnecting from backend service
+2025-08-30 12:19:40,844 - __main__ - WARNING - Backend connection failed: Backend health check failed - running in offline mode
+2025-08-30 12:19:40,845 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:19:40,845 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:19:40,846 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:19:40,846 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:19:40,846 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:19:40,906 - __main__ - INFO - System tray setup complete
+2025-08-30 12:19:41,134 - services.overlay_manager - INFO - AI Assist window shown
+2025-08-30 12:19:41,134 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:19:45,287 - ui.windows.ai_assist_window - INFO - Show history requested
+2025-08-30 12:19:45,821 - ui.windows.ai_assist_window - INFO - Show history requested
+2025-08-30 12:19:56,421 - services.overlay_manager - INFO - Quick Capture window shown
+2025-08-30 12:19:58,903 - services.overlay_manager - INFO - AI Assist window shown
+2025-08-30 12:20:32,082 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:20:32,082 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:20:32,095 - services.backend_client - ERROR - Failed to connect to backend: Backend health check failed
+2025-08-30 12:20:32,095 - services.backend_client - INFO - Disconnecting from backend service
+2025-08-30 12:20:32,095 - __main__ - WARNING - Backend connection failed: Backend health check failed - running in offline mode
+2025-08-30 12:20:32,097 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:20:32,097 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:20:32,097 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:20:32,097 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:20:32,097 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:20:32,170 - __main__ - INFO - System tray setup complete
+2025-08-30 12:20:32,170 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:29:03,239 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:29:03,240 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:29:03,252 - services.backend_client - ERROR - Failed to connect to backend: Backend health check failed
+2025-08-30 12:29:03,252 - services.backend_client - INFO - Disconnecting from backend service
+2025-08-30 12:29:03,252 - __main__ - WARNING - Backend connection failed: Backend health check failed - running in offline mode
+2025-08-30 12:29:03,253 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:29:03,253 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:29:03,253 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:29:03,253 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:29:03,253 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:29:03,450 - __main__ - INFO - System tray setup complete
+2025-08-30 12:29:03,450 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:29:41,978 - services.overlay_manager - INFO - Quick Capture window shown
+2025-08-30 12:35:24,271 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:35:24,271 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:35:24,284 - services.backend_client - ERROR - Failed to connect to backend: Backend health check failed
+2025-08-30 12:35:24,284 - services.backend_client - INFO - Disconnecting from backend service
+2025-08-30 12:35:24,285 - __main__ - WARNING - Backend connection failed: Backend health check failed - running in offline mode
+2025-08-30 12:35:24,287 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:35:24,287 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:35:24,287 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:35:24,287 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:35:24,288 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:35:24,419 - __main__ - INFO - System tray setup complete
+2025-08-30 12:35:24,419 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:40:15,448 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:40:15,449 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:40:15,869 - services.backend_client - INFO - WebSocket connected
+2025-08-30 12:40:15,869 - services.backend_client - INFO - Successfully connected to backend
+2025-08-30 12:40:15,869 - __main__ - WARNING - Failed to connect to backend - running in offline mode
+2025-08-30 12:40:15,871 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:40:15,871 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:40:15,871 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:40:15,871 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:40:15,871 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:40:16,017 - __main__ - INFO - System tray setup complete
+2025-08-30 12:40:16,017 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:49:29,321 - __main__ - INFO - Application quit requested
+2025-08-30 12:49:29,331 - services.shortcut_manager - INFO - Unregistered shortcut 'ai_assist'
+2025-08-30 12:49:29,332 - services.shortcut_manager - INFO - Unregistered shortcut 'quick_capture'
+2025-08-30 12:49:29,332 - services.shortcut_manager - INFO - Unregistered shortcut 'auto_context'
+2025-08-30 12:49:29,332 - services.shortcut_manager - INFO - Shortcut manager cleaned up
+2025-08-30 12:49:29,333 - services.overlay_manager - INFO - Overlay manager cleaned up
+2025-08-30 12:49:29,336 - __main__ - ERROR - Error during cleanup: no running event loop
+2025-08-30 12:49:29,373 - __main__ - INFO - Application exited with code 0
+2025-08-30 12:49:49,074 - services.overlay_manager - INFO - AI Assist window shown
+2025-08-30 12:50:34,307 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:50:34,307 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:50:34,349 - services.backend_client - INFO - WebSocket connected
+2025-08-30 12:50:34,349 - services.backend_client - INFO - Successfully connected to backend
+2025-08-30 12:50:34,349 - __main__ - WARNING - Failed to connect to backend - running in offline mode
+2025-08-30 12:50:34,351 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:50:34,351 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:50:34,351 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:50:34,351 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:50:34,351 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:50:34,477 - __main__ - INFO - System tray setup complete
+2025-08-30 12:50:34,477 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:50:39,338 - services.overlay_manager - INFO - AI Assist window shown
+2025-08-30 12:52:08,861 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:52:08,862 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:52:08,887 - services.backend_client - INFO - WebSocket connected
+2025-08-30 12:52:08,887 - services.backend_client - INFO - Successfully connected to backend
+2025-08-30 12:52:08,887 - __main__ - WARNING - Failed to connect to backend - running in offline mode
+2025-08-30 12:52:08,889 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:52:08,889 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:52:08,889 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:52:08,889 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:52:08,890 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:52:08,999 - __main__ - INFO - System tray setup complete
+2025-08-30 12:52:08,999 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:52:58,922 - services.overlay_manager - INFO - AI Assist window shown
+2025-08-30 12:53:01,141 - services.overlay_manager - INFO - Auto Context window shown
+2025-08-30 12:53:01,144 - services.backend_client - ERROR - Request failed: POST http://localhost:8000/api/v1/context/capture - Timeout context manager should be used inside a task
+2025-08-30 12:53:01,144 - ui.windows.auto_context_window - ERROR - Context refresh failed: Timeout context manager should be used inside a task
+2025-08-30 12:53:25,254 - services.overlay_manager - INFO - Quick Capture window shown
+2025-08-30 12:54:55,927 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 12:54:55,927 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 12:54:55,957 - services.backend_client - INFO - WebSocket connected
+2025-08-30 12:54:55,957 - services.backend_client - INFO - Successfully connected to backend
+2025-08-30 12:54:55,957 - __main__ - WARNING - Failed to connect to backend - running in offline mode
+2025-08-30 12:54:55,960 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 12:54:55,960 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 12:54:55,960 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 12:54:55,960 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 12:54:55,960 - __main__ - INFO - Overlay manager initialized
+2025-08-30 12:54:56,079 - __main__ - INFO - System tray setup complete
+2025-08-30 12:54:56,079 - __main__ - INFO - Application initialized successfully
+2025-08-30 12:56:28,653 - services.overlay_manager - INFO - AI Assist window shown
+2025-08-30 12:56:32,807 - services.overlay_manager - INFO - Auto Context window shown
+2025-08-30 12:56:32,809 - services.backend_client - ERROR - Request failed: POST http://localhost:8000/api/v1/context/capture - Timeout context manager should be used inside a task
+2025-08-30 12:56:32,809 - ui.windows.auto_context_window - ERROR - Context refresh failed: Timeout context manager should be used inside a task
+2025-08-30 13:15:25,976 - services.overlay_manager - INFO - AI Assist window shown
+2025-08-30 13:16:30,576 - services.overlay_manager - INFO - Quick Capture window shown
+2025-08-30 13:16:37,793 - services.backend_client - ERROR - Request failed: POST http://localhost:8000/api/v1/context/capture - Timeout context manager should be used inside a task
+2025-08-30 13:16:37,794 - ui.windows.auto_context_window - ERROR - Context refresh failed: Timeout context manager should be used inside a task
+2025-08-30 13:18:30,369 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 13:18:30,370 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 13:18:30,402 - services.backend_client - INFO - WebSocket connected
+2025-08-30 13:18:30,402 - services.backend_client - INFO - Successfully connected to backend
+2025-08-30 13:18:30,402 - __main__ - WARNING - Failed to connect to backend - running in offline mode
+2025-08-30 13:18:30,404 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 13:18:30,404 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 13:18:30,404 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 13:18:30,404 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 13:18:30,405 - __main__ - INFO - Overlay manager initialized
+2025-08-30 13:18:30,532 - __main__ - INFO - System tray setup complete
+2025-08-30 13:18:30,532 - __main__ - INFO - Application initialized successfully
+2025-08-30 13:22:21,977 - __main__ - INFO - Application quit requested
+2025-08-30 13:22:21,978 - services.shortcut_manager - INFO - Unregistered shortcut 'ai_assist'
+2025-08-30 13:22:21,979 - services.shortcut_manager - INFO - Unregistered shortcut 'quick_capture'
+2025-08-30 13:22:21,979 - services.shortcut_manager - INFO - Unregistered shortcut 'auto_context'
+2025-08-30 13:22:21,979 - services.shortcut_manager - INFO - Shortcut manager cleaned up
+2025-08-30 13:22:21,979 - services.overlay_manager - INFO - Overlay manager cleaned up
+2025-08-30 13:22:21,979 - __main__ - ERROR - Error during cleanup: no running event loop
+2025-08-30 13:22:21,994 - __main__ - INFO - Application exited with code 0
+2025-08-30 13:22:59,652 - services.overlay_manager - INFO - AI Assist window shown
+2025-08-30 13:23:22,818 - services.overlay_manager - INFO - AI Assist window shown
+2025-08-30 13:34:24,571 - __main__ - INFO - Constella Horizon starting up...
+2025-08-30 13:34:24,571 - services.backend_client - INFO - Connecting to backend service
+2025-08-30 13:34:24,604 - services.backend_client - INFO - WebSocket connected
+2025-08-30 13:34:24,604 - services.backend_client - INFO - Successfully connected to backend
+2025-08-30 13:34:24,604 - __main__ - WARNING - Failed to connect to backend - running in offline mode
+2025-08-30 13:34:24,606 - services.shortcut_manager - INFO - Registered shortcut 'ai_assist': ctrl+space
+2025-08-30 13:34:24,606 - services.shortcut_manager - INFO - Registered shortcut 'quick_capture': ctrl+shift+space
+2025-08-30 13:34:24,606 - services.shortcut_manager - INFO - Registered shortcut 'auto_context': ctrl+alt+space
+2025-08-30 13:34:24,606 - services.overlay_manager - INFO - Global shortcuts registered successfully
+2025-08-30 13:34:24,607 - __main__ - INFO - Overlay manager initialized
+2025-08-30 13:34:24,881 - __main__ - INFO - System tray setup complete
+2025-08-30 13:34:24,881 - __main__ - INFO - Application initialized successfully
+2025-08-30 14:57:02,483 - __main__ - INFO - Application quit requested
+2025-08-30 14:57:02,494 - services.shortcut_manager - INFO - Unregistered shortcut 'ai_assist'
+2025-08-30 14:57:02,495 - services.shortcut_manager - INFO - Unregistered shortcut 'quick_capture'
+2025-08-30 14:57:02,495 - services.shortcut_manager - INFO - Unregistered shortcut 'auto_context'
+2025-08-30 14:57:02,495 - services.shortcut_manager - INFO - Shortcut manager cleaned up
+2025-08-30 14:57:02,496 - services.overlay_manager - INFO - Overlay manager cleaned up
+2025-08-30 14:57:02,499 - __main__ - ERROR - Error during cleanup: no running event loop
+2025-08-30 14:57:02,551 - __main__ - INFO - Application exited with code 0

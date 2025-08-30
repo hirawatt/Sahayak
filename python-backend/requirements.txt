@@ -1,0 +1,58 @@
+# FastAPI and server dependencies
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+websockets==12.0
+python-multipart==0.0.6
+
+# Audio processing (cross-platform)
+sounddevice==0.4.6
+numpy>=1.26.0  # Compatible with Python 3.12
+
+# GUI/Overlays (cross-platform)
+PyQt6>=6.6.0
+
+# OCR and image processing
+pytesseract==0.3.10
+opencv-python>=4.8.0
+Pillow>=10.4.0
+
+# AI and HTTP clients
+aiohttp==3.9.1
+requests==2.31.0
+openai==1.3.0
+
+# Data handling
+pydantic>=2.10.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Async and utilities
+asyncio-mqtt==0.16.1
+python-dotenv==1.0.0
+tenacity==8.2.3
+
+# Logging and monitoring
+structlog==23.2.0
+rich==13.7.0
+
+# JWT handling for authentication
+PyJWT==2.8.0
+authlib==1.2.1
+cryptography==41.0.7
+
+# Configuration management
+PyYAML==6.0.1
+
+# System integration (cross-platform)
+plyer==2.1.0
+psutil==5.9.6
+
+# Database
+aiosqlite==0.19.0
+sqlalchemy[asyncio]==2.0.23
+
+# macOS specific dependencies
+pyobjc-framework-Cocoa>=10.0  # macOS system integration
+pyobjc-framework-Quartz>=10.0  # macOS screen capture
+pyobjc-framework-ApplicationServices>=10.0  # macOS accessibility
+pynput>=1.7.6  # Cross-platform input handling
