@@ -17,7 +17,7 @@ opencv-python>=4.8.0
 Pillow>=10.4.0
 
 # AI and HTTP clients
-aiohttp==3.9.1
+aiohttp==3.12.14
 requests==2.31.0
 openai==1.3.0
 
