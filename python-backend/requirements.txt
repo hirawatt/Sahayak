@@ -38,7 +38,7 @@ rich==13.7.0
 # JWT handling for authentication
 PyJWT==2.8.0
 authlib==1.2.1
-cryptography==41.0.7
+cryptography==44.0.1
 
 # Configuration management
 PyYAML==6.0.1
